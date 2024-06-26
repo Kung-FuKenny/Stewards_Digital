@@ -8,8 +8,8 @@ const Navbar = () => {
   return (
     <div className="mb-5 md:mb-10 bg-primary ">
       <div className="container px-5 md:px-10 mx-auto relative font-poppins flex items-center justify-between py-8">
-        <div>
-        <h2 className="text-2xl" style={{ fontFamily: 'Photograph Signature', fontSize: '2rem', color: 'white' }}>
+      <div className="font-photograph text-[2rem]">
+        <h2>
   Stewards Digital
 </h2>
         </div>

@@ -1,9 +1,9 @@
-import { appstore, bill, playstore } from "../assets";
+import { bill } from "../assets";
 import CommonTitle from "./CommonTitle";
 
 const Bill = () => {
   return (
-    <section className="relative font-poppins py-10 sm:py-16">
+    <section id="about us" className="relative font-poppins py-10 sm:py-16">
       <div className="flex flex-col md:flex-row gap-10 md:gap-5">
         <div className="flex-1">
           <img
@@ -14,21 +14,17 @@ const Bill = () => {
         </div>
 
         <div className="flex flex-col gap-5 md:gap-10 flex-1">
-          <CommonTitle title="Easily control your billing & invoicing" />
+          <CommonTitle title="We believe in the power of storytelling" />
           <p className="text-dimWhite leading-relaxed text-base ss:text-lg">
-            How much money do you leave on the table each month? Too many
-            businesses “forget” to bill all hours worked. With HooBank, you can
-            keep track of any invoices, generate them more quickly and bill any
-            type of pricing structure to meet clients needs. As a bonus, you can
-            explore new pricing models and compare their viability. Stop the
-            revenue leakage and scale your business at full speed!
+          We are a passionate team of marketing, design, and printing professionals dedicated 
+          to helping businesses and individuals tell their unique stories and create beautiful, functional spaces.
           </p>
           <p className="text-dimWhite mt-5 text-base ss:text-lg">
-            Cash is king, so get it in the bank sooner!
+          Ready to tell your story and design your dream space?  Contact Steward Digital today for a free consultation!
           </p>
           <div className="flex items-center gap-5">
-            <img src={appstore} alt="app store" />
-            <img src={playstore} alt="play store" />
+            {/* <img src={appstore} alt="app store" />
+            <img src={playstore} alt="play store" /> */}
           </div>
         </div>
       </div>

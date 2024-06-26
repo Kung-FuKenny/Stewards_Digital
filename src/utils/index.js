@@ -1,4 +1,4 @@
-import { person1, person2, person3 } from "../../src/assets";
+import { person1, person2, person3, person4 } from "../assets";
 
 export const navLinks = [
   {
@@ -6,15 +6,19 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Services",
-  },
-  {
-    id: "product",
+    id: "about us",
     title: "About Us",
   },
   {
-    id: "clients",
+    id: "services",
+    title: "Services",
+  },
+  {
+    id: "portfolio",
+    title: "Portfolio",
+  },
+  {
+    id: "partners",
     title: "Partners",
   },
 ];
@@ -23,7 +27,7 @@ export const testimonials = [
   {
     id: "1",
     about:
-      "Novelty at its best! I would highly recommend anyone who is in need of digital business solutions.",
+      "Stewards Digital sorted out our website and social media. Now we have way more people visiting our site and contacting us. Tops!",
     image: person1,
     name: "Delon Moodley",
     title: "KMM Solutions - Founder",
@@ -31,7 +35,7 @@ export const testimonials = [
   {
     id: "2",
     about:
-      "It's always a pleasure partnering with Stewards Digital, they deliver quality at affordable prices.",
+      "I wasn't sure what AI was all about, but Stewards Digital explained it to me and built something clever for my business. Now it saves me time and makes things more efficient. Highly recommended!",
     image: person2,
     name: "Patrick Kongolo",
     title: "E&P Global - CEO",
@@ -39,10 +43,18 @@ export const testimonials = [
   {
     id: "3",
     about:
-      "I am confident to say that my business brand looks at its best , also looking forward to growing with the help of Stewards Digital.",
+      "Stewards Digital sorted out all the printing for our company. From the logos to the marketting materials, everything looks great! They even helped us with the design.",
     image: person3,
     name: "Angelo Dos Santos",
     title: "VIVA Enterprise - Founder",
+  },
+  {
+    id: "4",
+    about:
+      "These days, everyone has the same way their brands look and it's hard to stand out. Stewards Digital made ours stand out with a cool design. Now we look different and people remember us. Thanks, guys.",
+    image: person4,
+    name: "Ajili Washi",
+    title: "Giant Seed - CEO",
   },
 ];
 
@@ -52,23 +64,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://naseemkhan.vercel.app/",
+        link: "",
       },
       {
         name: "How it Works",
-        link: "https://naseemkhan.vercel.app/",
+        link: "",
       },
       {
         name: "Create",
-        link: "https://naseemkhan.vercel.app/",
+        link: "",
       },
       {
         name: "Explore",
-        link: "https://naseemkhan.vercel.app/",
+        link: "",
       },
       {
         name: "Terms & Services",
-        link: "https://naseemkhan.vercel.app/",
+        link: "",
       },
     ],
   },
@@ -77,23 +89,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://naseemkhan.vercel.app/",
+        link: "",
       },
       {
         name: "Partners",
-        link: "https://naseemkhan.vercel.app/",
+        link: "",
       },
       {
         name: "Suggestions",
-        link: "https://naseemkhan.vercel.app/",
+        link: "",
       },
       {
         name: "Blog",
-        link: "https://naseemkhan.vercel.app/",
+        link: "",
       },
       {
         name: "Newsletters",
-        link: "https://naseemkhan.vercel.app/",
+        link: "",
       },
     ],
   },
@@ -102,11 +114,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://naseemkhan.vercel.app/",
+        link: "",
       },
       {
         name: "Become a Partner",
-        link: "https://naseemkhan.vercel.app/",
+        link: "",
       },
     ],
   },

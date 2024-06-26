@@ -3,12 +3,14 @@ import { RiDoubleQuotesL } from "react-icons/ri";
 import CommonTitle from "./CommonTitle";
 const Testimonials = () => {
   return (
-    <section id="clients" className="relative font-poppins md:py-16 py-10">
+    <section id="partners" className="relative font-poppins md:py-16 py-10">
       <div>
-        <CommonTitle title="What People are saying about us" />
+        <CommonTitle title="What Our Clients Says" />
         <p className="text-dimWhite md:text-lg text-base">
-          Everything you need to accept card payments and grow your business
-          anywhere on the planet.
+        Building trust and exceeding expectations is our priority.
+        </p>
+        <p className="text-dimWhite md:text-lg text-base">
+        This is what our valued clients have to say about their experience with Stewards Digital:
         </p>
         <div className="grid ss:grid-cols-2 md:grid-cols-3 gap-10 ss:gap-5 sm:gap-10 mt-10 sm:mt-16">
           {testimonials.map((item) => {

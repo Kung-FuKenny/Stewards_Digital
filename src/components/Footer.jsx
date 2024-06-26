@@ -1,6 +1,11 @@
 import { footerLinks } from "../utils";
-import { SiGithub, SiLinkedin, SiUpwork, SiFreelancer } from "react-icons/si";
-import { TbBrandFiverr } from "react-icons/tb";
+import { FaFacebook } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+import { IoLogoTiktok } from "react-icons/io5";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { FaTelegram } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
+
 
 // eslint-disable-next-line react/prop-types
 const SocialMedia = ({ icon, name, link }) => {
@@ -22,11 +27,11 @@ const Footer = () => {
     <section className="relative font-poppins pb-10 sm:pb-16">
       <div className="flex items-start md:flex-row flex-col gap-10 md:gap-24">
         <div className="md:max-w-[370px]">
-        <h2 className="text-2xl" style={{ fontFamily: 'Photograph Signature', fontSize: '2rem', color: 'white' }}>
+        <h2 className="font-photograph text-[2rem]">
   Stewards Digital
 </h2>
           <p className="text-dimWhite leading-relaxed text-base ss:text-lg mt-5">
-            A new way to make the payments easy, reliable and secure.
+           Architects of Excellence.
           </p>
         </div>
         <div className="w-full md:flex-1 flex items-start ss:justify-between gap-10 ss:gap-5 ss:flex-nowrap flex-wrap">
@@ -53,30 +58,35 @@ const Footer = () => {
         </p>
         <div>
           <div className="flex items-center gap-3 xs:gap-5 text-lg xs:text-xl">
-            <SocialMedia
-              icon={<SiGithub />}
-              name="github"
-              link="https://github.com/NaseemKhan005/"
-            />
-            <SocialMedia
-              icon={<SiLinkedin />}
+          <SocialMedia
+              icon={<FaLinkedinIn />}
               name="linkedin"
-              link="https://www.linkedin.com/in/naseem-khan-275275258/"
+              link="https://www.linkedin.com"
             />
             <SocialMedia
-              icon={<TbBrandFiverr />}
-              name="fiverr"
-              link="https://www.fiverr.com/naseemsafay?up_rollout=true"
+              icon={<FaFacebook />}
+              name="facebook"
+              link="https://facebook.com"
             />
             <SocialMedia
-              icon={<SiUpwork />}
-              name="upWork"
-              link="https://www.upwork.com/freelancers/~01a320b86f9044dd91"
+              icon={<RiInstagramFill />}
+              name="instagram"
+              link="https://instagram.com"
             />
             <SocialMedia
-              icon={<SiFreelancer />}
-              name="freelancer"
-              link="https://www.freelancer.com/u/naseemsaffy"
+              icon={<IoLogoTiktok />}
+              name="tiktok"
+              link="https://tiktok.com"
+            />
+            <SocialMedia
+              icon={<IoLogoWhatsapp />}
+              name="whatsapp"
+              link="https://www.whatsapp.com"
+            />
+            <SocialMedia
+              icon={<FaTelegram />}
+              name="telegram"
+              link="https://www.telegram.com"
             />
           </div>
         </div>

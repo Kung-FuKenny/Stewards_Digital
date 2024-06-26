@@ -16,16 +16,16 @@ const Steps = ({ title }) => {
 
 const PaymentMethod = () => {
   return (
-    <section id="product" className="py-10 sm:py-16 font-poppins">
+    <section id="portfolio" className="py-10 sm:py-16 font-poppins">
       <div className="flex md:flex-row flex-col gap-10">
         <div className="flex flex-col gap-7 sm:gap-10 flex-1">
-          <CommonTitle title="Find a better card deal in few easy steps." />
+          <CommonTitle title="Projects that speaks volume." />
           <div className="flex flex-col gap-3">
-            <Steps title="Choose the carding type that suits your needs" />
-            <Steps title="Don't double entry, interconnect to your accounting system" />
-            <Steps title="Speed up month-end closing with a rigorous invoicing process" />
+            <Steps title="Increased website traffic, leads, and sales through SEO & social media" />
+            <Steps title="Eye-catching logos, websites, and marketing materials" />
+            <Steps title="Satisfied clients leveraging our custom AI software and marketing tools" />
           </div>
-          <CommonButton btnText="get started" />
+          <CommonButton btnText="See Projects" />
         </div>
 
         <div className="flex-1">

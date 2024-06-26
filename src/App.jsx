@@ -17,12 +17,12 @@ const App = () => {
       <div className="container px-5 md:px-10 mx-auto">
         <Hero />
         <div className="flex flex-col xs:flex-row flex-wrap items-center justify-between gap-6 md:gap-2 py-20">
-          <Stats number="3800" title="ACTIVE USER" />
-          <Stats number="230" title="TRUSTED BY COMPANY" />
-          <Stats number="$230M" title="TRANSACTION" />
+          <Stats number="35" title="REQUESTS PER SECOND" />
+          <Stats number="75" title="NEW LEADS PER MONTH" />
+          <Stats number="100" title="PROJECTS" />
         </div>
-        <Business />
         <Bill />
+        <Business />
         <PaymentMethod />
         <Testimonials />
         <ServiceCard />
