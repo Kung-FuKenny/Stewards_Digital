@@ -11,12 +11,12 @@ const Hero = () => {
         <div className="flex items-center gap-2 font-poppins bg-discount-gradient py-2 px-3 xs:px-5 text-lg rounded-xl w-[100%] xs:w-fit">
           <img src={discount} alt="discount" />
           <p className="sm:text-base text-xs">
-            Your <span className="text-[#5A595E] font-[500]">One-Stop</span>{" "}
-            Platform <span className="text-[#5A595E] font-[500]">For</span>
+           <span className="text-[#032349] font-[500]">Your One-Stop</span>{" "}
+             <span className="text-[#032349] font-[500]">Platform For</span>
           </p>
         </div>
 
-        <div className="relative">
+        <div className="relative transition-all">
           <h1 className="text-[3.3rem] sm:text-6xl leading-snug sm:leading-normal md:text-7xl md:leading-snug font-[600] font-poppins">
           Digital<br className="md:block hidden" />{" "}
             <span className="text-gradient">Growth</span>{" "}
@@ -34,7 +34,7 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="flex-1 relative flex items-center justify-center">
+      <div className="flex-1 relative flex items-center justify-center transition-all">
         <img src={robot} alt="robot" className="md:w-full md:h-full" />
         <div className="absolute w-[40%] h-[35%] top-0 pink__gradient"></div>
         <div className="absolute w-[80%] h-[80%] rounded-full bottom-40 white__gradient"></div>
